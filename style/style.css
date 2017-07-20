@@ -2,10 +2,16 @@
   display: flex;
 }
 
+.search-bar {
+  text-align: center;
+}
+
 .search-bar input {
+  text-align: center !important;
   margin: 20px !important;
   padding: 5px;
   width: 50% !important;
+  align-items: center;
 }
 
 .list-group-item {
