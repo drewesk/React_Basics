@@ -1,0 +1,33 @@
+.flex {
+  display: flex;
+}
+
+.search-bar input {
+  margin: 20px !important;
+  padding: 5px;
+  width: 50% !important;
+}
+
+.list-group-item {
+  min-width: 400px
+  max-height: 100px;
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: slategrey;
+}
+
+.loading-cycle {
+  cursor: progress;
+}
+
+.detail-title {
+  background-color: #eee;
+}
+
+.detail-description {
+  background-color: #eee;
+  font-family: sans-serif;
+  font-size: 12px;
+}
